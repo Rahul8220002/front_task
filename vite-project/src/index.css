@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.heading {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading > a {
+  padding: 5px 18px;
+  background-color: #c086e4;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.from_group {
+  width: 100%;
+  height: 80vh;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.from_group_data {
+  width: auto;
+  height: auto;
+  background-color: #865f5f;
+  border-radius: 20px;
+  padding: 10px;
+}
+.input_div {
+  font-size: 20px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.input_box {
+  width: 20rem;
+  padding: 5px;
+  cursor: pointer;
+  height: 36px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+.main_cantain_table {
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  padding: 5px;
+}
+.tabal_user {
+  width: auto;
+  height: auto;
+}
+.createuserButton {
+  padding: 5px 18px;
+  margin-bottom: 10px;
+  background-color: #c086e4;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+.table_item {
+  padding: 8px;
+}
+.RemoveBtn {
+  border-radius: 8px;
+  padding: 5px;
+  margin-right: 2px;
+  background-color: rgb(235, 89, 89);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.table_item > a {
+  padding: 5px 18px;
+  background-color: #c086e4;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.table-auto {
+  border-collapse: collapse;
+}
+.table-auto > thead > tr > th {
+  padding: 12px;
+}
+.table-auto > tbody > tr > td {
+  padding: 12px;
+}
